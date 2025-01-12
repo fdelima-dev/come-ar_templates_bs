@@ -1,63 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
-    font-family: 'Kode mono';
+  font-family: 'Kode mono', sans-serif;
+}
+header{
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .bg-blue{
-    background-color: #008CBA;
-    padding: 40px;
-    border-bottom: 4px solid #012345;
+  padding: 20px;
+  background-color: #008CBA;
+  color: #fff;
+  border-bottom: 3px solid #012345;
 }
 .nav-link{
-    padding: 20px;
-    display: inline;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
 }
 .nav-link:hover{
-    color: #1ee;
-    border-bottom: 2px solid #1ee;
-}
-.image{
-    width: 400px;
-}
-h3{
-    color: #008CBA;
-}
-section#languages .container{
-    padding: 40px;
-    text-align: Center;
-}
-section#languages .container img{
-    margin-top: 40px;
+  color: #1ee;
+  border-color: #1ee;
 }
 input, textarea, button{
-    display: block;
-    width: 320px;
-    margin-top: 20px;
-    font-family: 'Kode mono';
+  margin-top: 20px;
+  font-family: 'Kode mono';
 }
-.bg-darkblue{
-    padding: 40px;
-    width: 100%;
-    background-color: #012345;
+textarea{
+  height: 200px;
+  resize: none;
+}
+.accordion-body{
+  font-family: sans-serif;
+}
+#accordion-button{
+  font-family: sans-serif;
 }
 footer img{
-    width: 50px;
-}
-footer ul{
-    list-style: none;
+  width: 50px;
 }
 footer ul li{
-    display: inline-block;
-    padding-left: 40px;
+  display: inline-block;
+  padding: 20px;
 }
-section#contact button{
-    background-color: #008CBA;
-    border: none;
-    color: #fff;
-    height: 35px;
-}
-section#contact button:hover{
-    background-color: #012345;
-    font-weight: bold;
-}
-input:focus, textarea:focus{
-    outline-color: #008CBA;
+.bg-darkblue{
+  background-color: #012345;
 }
